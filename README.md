@@ -6,8 +6,8 @@ The **ESP32 Deauther Detector** monitors nearby WiFi traffic and identifies deau
 
 ## Features
 
-- **Solo Mode (AP Mode)**: Creates an access point with a customizable SSID, allowing the ESP32 to monitor for deauthentication frames independently.
-- **Leech Mode (Station Mode)**: Connects to an existing WiFi network, enabling deauthentication packet monitoring while the ESP32 is part of that network.
+- **Solo Mode (AP Mode)**: Creates an access point with a customizable SSID, allowing the ESP32 to monitor for deauthentication frames attacks on the AP(can be useful for automated Deauth attack such as the one used in [DeautherINO](https://github.com/ExPloit256/DeautherINO).
+- **Leech Mode (Station Mode)**: Connects to an existing WiFi network, enabling deauthentication packet monitoring on the network selected by the user.
 - **LED Notification**: The onboard LED blinks for 1 second each time a deauthentication packet is detected.
 - **Real-Time Monitoring**: Logs deauthentication frames, displaying the BSSID and source MAC via serial output.
 - **Configurable Settings**: Easily modify SSID, network credentials, and mode settings.
