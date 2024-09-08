@@ -1,6 +1,6 @@
 # ESP32 Deauther Detector
 
-A lightweight and customizable ESP32-based device designed to detect deauthentication packets in WiFi networks.
+A lightweight and customizable ESP32-based tool designed to detect deauthentication packets in WiFi networks.
 
 The **ESP32 Deauther Detector** monitors nearby WiFi traffic and identifies deauthentication frames. It offers two modes: **Solo Mode**, where the ESP32 creates its own access point (AP), and **Leech Mode**, where it connects to an existing WiFi network. The onboard LED provides a simple visual alert whenever deauth packets are detected, making it intuitive and easy to use.
 
